@@ -1,0 +1,54 @@
+name: Deploy Hugo Static Site
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  AWS_REGION: us-east-1
+  S3_BUCKET_NAME: arcadian.cloud
+  CLOUDFRONT_DISTRIBUTION_ID: E3EH3783WAEVEN
+  HUGO_VERSION: 0.126.1   
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+            submodules: true  # Ensure submodules are checked out, needed for hugo themes
+
+      - name: Install Hugo
+        run: |
+          wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
+          tar -xzf hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
+          sudo mv hugo /usr/local/bin/
+
+      - name: Build Hugo site
+        run: |
+          hugo
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Sync files to S3
+        run: |
+          aws s3 sync public/ s3://${{ env.S3_BUCKET_NAME }} --delete \
+          --cache-control "max-age=31536000, public, immutable"
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+
+      

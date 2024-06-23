@@ -1,0 +1,8 @@
+# Standard git ignore for hugo
+public/
+resources/
+*.log
+
+*.lock
+.env
+infra/cdk.context.json

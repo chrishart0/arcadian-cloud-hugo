@@ -53,3 +53,24 @@ cdk deploy ArcadianCloudHugoSiteStack --profile xyz
 # deploy the github action user stack
 cdk deploy DeploymentUserStack --profile xyz
 ```
+
+## Run the e2e tests
+
+**NOTE:** If this is your first time setting this repo up, you'll need to edit the homepage.test.js to adjust the site title so the test passes
+
+First, install the deps
+```
+cd e2e-tests
+
+npm i
+
+sudo npx playwright install-deps  
+```
+
+```
+# ensure you are in e2e-tests, if you aren't already
+cd e2e-tests
+
+
+npm test
+```

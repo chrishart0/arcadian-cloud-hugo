@@ -1,5 +1,7 @@
 # Arcadian Cloud Blog
 
+Static site repo for: <Arcadian.cloud>
+
 [![Deploy Hugo Static Site](https://github.com/chrishart0/arcadian-cloud-hugo/actions/workflows/deploy.yml/badge.svg)](https://github.com/chrishart0/arcadian-cloud-hugo/actions/workflows/deploy.yml)
 
 Build
@@ -46,4 +48,8 @@ cd infra
 npm i
 
 # deploy the site stack
+cdk deploy ArcadianCloudHugoSiteStack --profile xyz
+
+# deploy the github action user stack
+cdk deploy DeploymentUserStack --profile xyz
 ```

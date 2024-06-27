@@ -32,6 +32,12 @@ export class DeploymentUserStack extends cdk.Stack {
       actions: ['s3:ListBucket'],
       resources: [`arn:aws:s3:::${bucketArn}`],
     }));
+
+    // Allow the user to delete objects in the S3 bucket
+    deploymentUser.addToPolicy(new PolicyStatement({
+      actions: ['s3:DeleteObject'],
+      resources: [`arn:aws:s3:::${bucketArn}/*`],
+    }));
     
     // Allow the user to invalidate the CloudFront distribution
     deploymentUser.addToPolicy(new PolicyStatement({

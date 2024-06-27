@@ -73,9 +73,50 @@ We use LLms to evaluate LLMs. Generally the steps to running an eval are:
   * The eval engine, such as trulens_evals, will evaluate each query and the context it sourced through the RAG process to generate scores for the RAG triad metrics
 
 
-  Evals are crucial in detecting hallucinations in our RAG process and *especially* for preventing them from slipping in after future changes. 
+Evals are crucial in detecting hallucinations in our RAG process and *especially* for preventing them from slipping in after future changes. 
 
   
 Extra sources:
 
 * https://www.trulens.org/trulens_eval/getting_started/core_concepts/rag_triad/
+
+
+### Answer Relevance
+
+Checking that the answer is relevant to the query asked by the user.
+
+![RAG Eval Answer Relevance flowchart](./answer-relevance.png)
+
+#### How it works
+
+* Eval system will run a specific query against the RAG pipeline
+* Eval system will use it's own LLM to:
+  * Read the user's query, read the output
+  * Then generate a Answer Relevance score
+    * Potentially using something like Chain-of-though to do this
+    * May output a "supporting evidence" justification as part of it's internal workings to decide on the score
+
+
+### Feedback Function
+
+Provides a score after reviewing an LLM app's:
+* inputs
+* outputs
+* intermediate results.
+
+Example code for a trulens eval feedback function:
+```python
+from trulens_eval import Feedback
+
+provider = fOpenAI()
+f_qa_relevance = (
+  Feedback(
+    provider.relevance,
+    name="Answer Relevance"
+  )
+  .on_input()
+  .on_output()
+)
+```
+
+Can be implemented by using an LLM or a BERT model to evaluate the inputs, outputs, and intermediate results

@@ -15,7 +15,9 @@ coverImage: ""
 author: "chart"
 url: "notes-on-building-evaluating-advanced-rag-course"
 ---
+These notes are taken from this free course: <https://learn.deeplearning.ai/courses/building-evaluating-advanced-rag/lesson/1/introduction>
 
+Huge thanks to the folks at <DeepLearning.ai>
 
 ## Introduction 
 
@@ -70,3 +72,8 @@ We use LLms to evaluate LLMs. Generally the steps to running an eval are:
 * Write a list of questions to run against your RAG pipeline
 * Use your eval engine of choice to run each of the questions in your list against your RAG pipeline
   * The eval engine, such as trulens_evals, will evaluate each query and the context it sourced through the RAG process to generate scores for the RAG triad metrics
+
+
+  Evals are crucial in detecting hallucinations in our RAG process and *especially* for preventing them from slipping in after future changes. 
+
+  

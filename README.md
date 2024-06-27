@@ -27,3 +27,23 @@ Command to fix image paths
 ```
 find content/migrated -type f -name '*.md' -print0 | xargs -0 sed -i -E 's/!\[(.*)\]\((images\/[^\)]*)\)/!\[\1\](\/\2)/g'
 ```
+
+## Deploy the infra
+
+*Note: You will first need to setup CDK as you would on any other machine/AWS account*
+
+First, configure your .env file with your AWS account and region, this is needed for the hosted zone lookup
+```
+cp .env.example .env
+nano .env
+```
+
+cd into the infra dir, then deploy the site stack, then the github actions IAM user stack
+```
+cd infra
+
+# install the needed deps
+npm i
+
+# deploy the site stack
+```

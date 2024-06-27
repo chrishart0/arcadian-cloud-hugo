@@ -12,7 +12,7 @@ tags:
   - "evals"
   - "Automated evaluations"
 coverImage: ""
-author: "chart"
+author: "chart, smnzrn"
 url: "notes-on-building-evaluating-advanced-rag-course"
 ---
 These notes are taken from this free course: <https://learn.deeplearning.ai/courses/building-evaluating-advanced-rag/lesson/1/introduction>
@@ -54,7 +54,6 @@ Gives an LLM extra context by retrieving, in addition to the most relevant sente
 
 ### Auto Merging Retrieval
 
-
 Organizes the document in a tree like structure where each parent's nodes text is divided among its child nodes. If a child node is identified as relevant, then the entire text of the parent node is provided. It is a retrieval method that involves breaking text down into even smaller chunks than that of sentence window retrieval in a hierarchical manner. Nodes containing relevant chunks data are concatenated into one comprehensive response.
 
 ![Auto-merging retrieval](auto-merging-retrieval.png)
@@ -77,3 +76,6 @@ We use LLms to evaluate LLMs. Generally the steps to running an eval are:
   Evals are crucial in detecting hallucinations in our RAG process and *especially* for preventing them from slipping in after future changes. 
 
   
+Extra sources:
+
+* https://www.trulens.org/trulens_eval/getting_started/core_concepts/rag_triad/

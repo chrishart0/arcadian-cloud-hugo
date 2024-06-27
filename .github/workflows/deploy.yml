@@ -54,9 +54,10 @@ jobs:
   tests_e2e:
     name: Run end-to-end tests
     runs-on: ubuntu-latest
+    needs: deploy
     defaults:
       run:
-        working-directory: shared-models
+        working-directory: e2e-tests
 
     steps:
       - uses: actions/checkout@v3

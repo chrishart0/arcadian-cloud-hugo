@@ -11,7 +11,7 @@ permissions:
 
 env:
   AWS_REGION: us-east-1
-  S3_BUCKET_NAME: arcadian.cloud
+  DOMAIN_NAME: arcadian.cloud
   CLOUDFRONT_DISTRIBUTION_ID: E3EH3783WAEVEN
   HUGO_VERSION: 0.126.1   
 
@@ -44,7 +44,7 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync public/ s3://${{ env.S3_BUCKET_NAME }} --delete \
+          aws s3 sync public/ s3://${{ env.DOMAIN_NAME }} --delete \
           --cache-control "max-age=31536000, public, immutable"
 
       - name: Invalidate CloudFront cache

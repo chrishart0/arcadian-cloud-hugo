@@ -8,12 +8,12 @@ tags:
 author: "chart"
 url: "/agile/2023/05/09/you-are-using-story-points-wrong-how-to-make-story-points-suck-less/"
 cover:
-  Image: "/images/1_Q8HekRFvdLAfvIeY2ZcsNw.jpg"
+  Image: "/images/1_Q8HekRFvdLAfvIeY2ZcsNw.webp"
 ---
 
 <figure>
 
-![How it feels to use story points correctly](/images/1_K39HLairchX5nxaYMtZqag.jpg)
+![How it feels to use story points correctly](/images/1_K39HLairchX5nxaYMtZqag.webp)
 
 <figcaption>
 
@@ -41,7 +41,7 @@ The goal of this article is not to give the reader a set of hard rules. Instead,
 
 Story points are relative to previously sized stories.
 
-![Big brain story points](/images/1_Q8HekRFvdLAfvIeY2ZcsNw.jpg)
+![Big brain story points](/images/1_Q8HekRFvdLAfvIeY2ZcsNw.webp)
 
 #### Arbitrary
 

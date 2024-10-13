@@ -10,7 +10,7 @@ tags:
   - "evals"
   - "Automated evaluations"
 cover:
-  Image: "/images/"
+  Image: "/images/gen-ai/cover-images/what-are-automated-evaluations-llms.webp"
 author: "chart"
 url: "into-to-LLM-evals"
 ---

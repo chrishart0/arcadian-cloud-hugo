@@ -11,7 +11,7 @@ tags:
   - "Code Editor"
   - "ai"
 cover:
-  Image: "/images/"
+  Image: "/images/gen-ai/cover-images/how-to-install-cursor-ubuntu-24-10.webp"
 author: "chart"
 url: "how-to-install-cursor-ubuntu-24-10"
 ---
@@ -24,6 +24,8 @@ Cursor is an AI-powered code editor, and getting it up and running on Ubuntu 24.
 
 #### Step 1: Download the AppImage
 Go to the [Cursor homepage](https://www.cursor.com) and grab the Cursor `.AppImage` file for Linux. This AppImage is a self-contained package that makes installation hassle-free.
+
+![how to install cursor on Ubuntu 24.10](/images/gen-ai/how-to-install-cursor/cursor-homepage.png)
 
 #### Step 2: Make the AppImage Executable
 After downloading, open your terminal, navigate to the directory where the `.AppImage` is, and run:

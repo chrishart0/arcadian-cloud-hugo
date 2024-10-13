@@ -42,7 +42,7 @@ Course covers:
 ## Advanced RAG Pipeline
 
 ### Overview of simple (naive) RAG pipeline
-![simple RAG pipeline](/images/gen-ai/simple-rag-pipeline.png)
+![simple RAG pipeline](/images/gen-ai/simple-rag-pipeline.webp)
 
 1) Ingestion: Take a doc -> chunk it up -> embed the chunks -> store them in an index
 
@@ -52,17 +52,17 @@ Course covers:
 
 Gives an LLM extra context by retrieving, in addition to the most relevant sentence, the window of context around it. Sentence window retrieval is as a result, more efficient than the direct query engine. 
 
-![Sentence Window Retrieval](/images/gen-ai/sentence-window-retrieval.png)
+![Sentence Window Retrieval](/images/gen-ai/sentence-window-retrieval.webp)
 
 ### Auto Merging Retrieval
 
 Organizes the document in a tree like structure where each parent's nodes text is divided among its child nodes. If a child node is identified as relevant, then the entire text of the parent node is provided. It is a retrieval method that involves breaking text down into even smaller chunks than that of sentence window retrieval in a hierarchical manner. Nodes containing relevant chunks data are concatenated into one comprehensive response.
 
-![Auto-merging retrieval](/images/gen-ai/auto-merging-retrieval.png)
+![Auto-merging retrieval](/images/gen-ai/auto-merging-retrieval.webp)
 
 ### Overview of Evals
 
-![RAG triad](/images/gen-ai/rag-triad.png)
+![RAG triad](/images/gen-ai/rag-triad.webp)
 
 The RAG Triad
 * Query 
@@ -123,7 +123,7 @@ Source: <https://www.trulens.org/trulens_eval/evaluation/feedback_functions/anat
 
 Checking that the answer is relevant to the query asked by the user.
 
-![RAG Eval Answer Relevance flowchart](/images/gen-ai/answer-relevance.png)
+![RAG Eval Answer Relevance flowchart](/images/gen-ai/answer-relevance.webp)
 
 Source: <https://www.trulens.org/trulens_eval/evaluation_benchmarks/>
 

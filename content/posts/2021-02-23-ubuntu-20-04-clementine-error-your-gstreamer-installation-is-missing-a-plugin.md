@@ -3,7 +3,8 @@ title: "Ubuntu 20.04: Clementine error - \"Your gstreamer installation is missin
 date: "2021-02-23"
 categories: 
   - "linux-desktop"
-coverImage: "linux-clementine-logo-300x216-1.png"
+cover:
+  Image: "/images/linux-clementine-logo-300x216-1.png"
 author: "chart"
 url: "/linux/linux-desktop/2021/02/23/ubuntu-20-04-clementine-error-your-gstreamer-installation-is-missing-a-plugin/"
 ---

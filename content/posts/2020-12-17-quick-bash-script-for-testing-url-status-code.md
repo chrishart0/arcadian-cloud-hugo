@@ -8,7 +8,8 @@ tags:
   - "bash"
   - "curl"
   - "linux"
-coverImage: "Tux_Mono.svg_.png"
+cover:
+  Image: "/images/Tux_Mono.svg_.png"
 author: "chart"
 url: "/linux/2020/12/17/quick-bash-script-for-testing-url-status-code/"
 ---

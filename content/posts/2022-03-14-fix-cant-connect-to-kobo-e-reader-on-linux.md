@@ -1,7 +1,8 @@
 ---
 title: "Fix: Can't connect to Kobo e-reader on Linux"
 date: "2022-03-14"
-coverImage: "Screenshot_20220313-223604_Gallery.jpg"
+cover:
+  Image: "/images/Screenshot_20220313-223604_Gallery.jpg"
 author: "chart"
 url: "/uncategorized/2022/03/13/fix-cant-connect-to-kobo-e-reader-on-linux/"
 ---

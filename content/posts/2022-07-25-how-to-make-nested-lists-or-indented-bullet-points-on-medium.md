@@ -5,7 +5,8 @@ categories:
   - "medium"
 tags: 
   - "medium"
-coverImage: "medium-cover-photo.webp"
+cover:
+  Image: "/images/medium-cover-photo.webp"
 author: "chart"
 url: "/medium/2022/07/25/how-to-make-nested-lists-or-indented-bullet-points-on-medium/"
 ---

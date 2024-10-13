@@ -10,7 +10,8 @@ tags:
   - "desktop-environment"
   - "dmenu"
   - "linux"
-coverImage: "dmenu-image.png"
+cover:
+  Image: "/images/dmenu-image.png"
 author: "chart"
 url: "/linux/linux-desktop/2020/04/17/how-to-add-to-the-path-used-by-dmenu/"
 ---

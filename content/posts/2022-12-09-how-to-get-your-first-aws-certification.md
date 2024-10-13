@@ -5,7 +5,8 @@ categories:
   - "aws"
 tags: 
   - "aws"
-coverImage: "aws-logo.png"
+cover:
+  Image: "/images/aws-logo.png"
 author: "chart"
 url: "/aws/2022/12/08/how-to-get-your-first-aws-certification/"
 ---

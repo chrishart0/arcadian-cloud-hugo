@@ -8,7 +8,8 @@ tags:
   - "firefox"
   - "help"
   - "linux"
-coverImage: "2020-05-04_08-56.png"
+cover:
+  Image: "/images/2020-05-04_08-56.png"
 author: "chart"
 url: "/linux/linux-desktop/2020/05/04/copy-firefox-logins-and-bookmarks-to-a-new-computer-or-login-on-linux/"
 ---

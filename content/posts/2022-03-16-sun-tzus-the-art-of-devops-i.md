@@ -6,7 +6,8 @@ categories:
 tags: 
   - "devops"
   - "humor"
-coverImage: "Sun-Tzu.jpg"
+cover:
+  Image: "/images/Sun-Tzu.jpg"
 author: "chart"
 url: "/devops/2022/03/16/sun-tzus-the-art-of-devops-i/"
 ---

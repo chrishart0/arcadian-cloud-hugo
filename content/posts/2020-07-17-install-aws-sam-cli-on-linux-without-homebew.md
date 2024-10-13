@@ -8,7 +8,8 @@ tags:
   - "cli"
   - "linux"
   - "sam"
-coverImage: "SAMCLIPic.png"
+cover:
+  Image: "/images/SAMCLIPic.png"
 author: "chart"
 url: "/devops/2020/07/16/install-aws-sam-cli-on-linux-without-homebew/"
 ---

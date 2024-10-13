@@ -7,7 +7,8 @@ tags:
   - "aws"
   - "cli"
   - "sam"
-coverImage: "aws-logo.png"
+cover:
+  Image: "/images/aws-logo.png"
 author: "chart"
 url: "/aws/sam/2022/09/20/notes-on-sam-sync-for-faster-serverless-development/"
 ---

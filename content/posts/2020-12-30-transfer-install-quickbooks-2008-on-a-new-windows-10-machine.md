@@ -8,7 +8,8 @@ tags:
   - "quickbooks-pro"
   - "quickbooks2008"
   - "windows-10"
-coverImage: "OpenQuickbooks.png"
+cover:
+  Image: "/images/OpenQuickbooks.png"
 author: "chart"
 url: "/support/2020/12/30/transfer-install-quickbooks-2008-on-a-new-windows-10-machine/"
 ---

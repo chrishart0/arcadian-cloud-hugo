@@ -3,7 +3,8 @@ title: "Does AWS provide VPS? Yes, and You Can Get One For Free!"
 date: "2022-07-26"
 categories: 
   - "aws"
-coverImage: "aws-logo.webp"
+cover:
+  Image: "/images/aws-logo.webp"
 author: "chart"
 url: "/aws/2022/07/26/does-aws-provide-vps-yes-and-you-can-get-one-for-free/"
 ---

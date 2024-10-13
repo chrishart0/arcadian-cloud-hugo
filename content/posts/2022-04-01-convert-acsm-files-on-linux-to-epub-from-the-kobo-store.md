@@ -7,7 +7,8 @@ tags:
   - "drm"
   - "ereader"
   - "kobo"
-coverImage: "Screenshot_20220401-123212_Gallery.jpg"
+cover:
+  Image: "/images/Screenshot_20220401-123212_Gallery.jpg"
 author: "chart"
 url: "/ereader/2022/03/31/convert-acsm-files-on-linux-to-epub-from-the-kobo-store/"
 ---

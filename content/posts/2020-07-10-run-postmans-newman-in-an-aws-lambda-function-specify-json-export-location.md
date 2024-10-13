@@ -10,7 +10,8 @@ tags:
   - "lambda"
   - "newman"
   - "postman"
-coverImage: "postman.png"
+cover:
+  Image: "/images/postman.png"
 author: "chart"
 url: "/devops/2020/07/10/run-postmans-newman-in-an-aws-lambda-function-specify-json-export-location/"
 ---

@@ -5,7 +5,8 @@ categories:
   - "support"
 tags: 
   - "brave"
-coverImage: "access-denied.png"
+cover:
+  Image: "/images/access-denied.png"
 author: "chart"
 url: "/support/2022/05/12/an-error-has-occurred-access-denied-brave-browser-extension-store/"
 ---

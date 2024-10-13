@@ -3,7 +3,8 @@ title: "Amazon S3 vs EBS vs EFS - Ultimate guide to what, when, and where"
 date: "2022-12-08"
 categories: 
   - "aws"
-coverImage: "coverImage.webp"
+cover:
+  Image: "/images/coverImage.webp"
 author: "chart"
 url: "/aws/2022/12/08/amazon-s3-vs-ebs-vs-efs-ultimate-guide-to-what-when-and-where/"
 ---

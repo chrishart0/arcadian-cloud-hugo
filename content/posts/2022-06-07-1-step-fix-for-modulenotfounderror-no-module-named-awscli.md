@@ -6,7 +6,8 @@ categories:
 tags: 
   - "aws"
   - "cli"
-coverImage: "ModuleNotFoundError.webp"
+cover:
+  Image: "/images/ModuleNotFoundError.webp"
 author: "chart"
 url: "/aws/2022/06/07/1-step-fix-for-modulenotfounderror-no-module-named-awscli/"
 ---

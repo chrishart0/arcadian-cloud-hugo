@@ -6,7 +6,8 @@ categories:
 tags: 
   - "494"
   - "cloudfront"
-coverImage: "494Error.png"
+cover:
+  Image: "/images/494Error.png"
 author: "chart"
 url: "/aws/2021/02/05/cloudfront-494-error/"
 ---

@@ -3,7 +3,8 @@ title: "Taking Off Into The Cloud: Guide On How To Get Your First AWS DevOps Job
 date: "2020-10-01"
 categories: 
   - "aws"
-coverImage: "aws2.png"
+cover:
+  Image: "/images/aws2.png"
 author: "chart"
 url: "/aws/2020/10/01/taking-off-into-the-cloud-a-guide-for-newbies-to-get-your-first-aws-job/"
 ---

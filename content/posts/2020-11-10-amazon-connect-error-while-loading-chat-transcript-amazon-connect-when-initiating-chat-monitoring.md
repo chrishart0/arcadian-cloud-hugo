@@ -6,7 +6,8 @@ categories:
 tags: 
   - "amazon-connect"
   - "live-chat"
-coverImage: "PreviewIssueWithViewingChat-1.png"
+cover:
+  Image: "/images/PreviewIssueWithViewingChat-1.png"
 author: "chart"
 url: "/aws/2020/11/10/amazon-connect-error-while-loading-chat-transcript-amazon-connect-when-initiating-chat-monitoring/"
 ---

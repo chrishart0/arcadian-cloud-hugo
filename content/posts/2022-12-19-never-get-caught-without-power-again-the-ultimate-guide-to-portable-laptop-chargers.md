@@ -3,7 +3,8 @@ title: "Never Get Caught Without Power Again - The Ultimate Guide to Portable La
 date: "2022-12-19"
 categories: 
   - "hardware"
-coverImage: "coverImage.jpg"
+cover:
+  Image: "/images/coverImage.jpg"
 author: "chart"
 url: "/hardware/2022/12/19/never-get-caught-without-power-again-the-ultimate-guide-to-portable-laptop-chargers/"
 ---

@@ -7,7 +7,8 @@ tags:
   - "acsm"
   - "ebook"
   - "kobo"
-coverImage: "whatIsAnACSMFileCover.webp"
+cover:
+  Image: "/images/whatIsAnACSMFileCover.webp"
 author: "chart"
 url: "/ebook/2022/12/08/what-is-an-acsm-file-and-why-ebook-stores-use-them-%f0%9f%a4%94/"
 ---

@@ -6,7 +6,8 @@ categories:
 tags: 
   - "aws"
   - "sam"
-coverImage: "AWSSAM.webp"
+cover:
+  Image: "/images/AWSSAM.webp"
 author: "chart"
 url: "/aws/sam/2022/09/22/aws-sam-samcli-commands-exceptions-userexception-winerror-145-the-directory-is-not-empty/"
 ---

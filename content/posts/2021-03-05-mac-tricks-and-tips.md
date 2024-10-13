@@ -3,7 +3,8 @@ title: "Mac Tricks and Tips"
 date: "2021-03-05"
 categories: 
   - "mac"
-coverImage: "apple-logo.png"
+cover:
+  Image: "/images/apple-logo.png"
 author: "chart"
 url: "/mac/2021/03/05/mac-tricks-and-tips/"
 ---

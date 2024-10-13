@@ -7,7 +7,8 @@ tags:
   - "aws"
   - "cdk"
   - "iac"
-coverImage: "cdk2.png"
+cover:
+  Image: "/images/cdk2.png"
 author: "chart"
 url: "/aws/2021/01/11/aws-cdk-python-tips-and-tricks/"
 ---

@@ -3,7 +3,8 @@ title: "Amazon Macie: A Comprehensive Data Security and Privacy Solution"
 date: "2023-04-01"
 categories: 
   - "aws"
-coverImage: "Screenshot-from-2023-04-01-00-28-29.png"
+cover:
+  Image: "/images/Screenshot-from-2023-04-01-00-28-29.png"
 author: "ghope"
 url: "/aws/2023/03/31/amazon-macie-a-comprehensive-data-security-and-privacy-solution/"
 ---

@@ -9,7 +9,8 @@ tags:
   - "dinktopdf"
   - "libwkhtmltox"
   - "linux"
-coverImage: "DinkWork.png"
+cover:
+  Image: "/images/DinkWork.png"
 author: "chart"
 url: "/linux/2020/12/15/using-dinktopdf-on-alpine-linux/"
 ---

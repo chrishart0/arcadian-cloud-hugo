@@ -9,7 +9,8 @@ tags:
   - "domains"
   - "route53"
   - "wordpress"
-coverImage: "Route53Thumb.png"
+cover:
+  Image: "/images/Route53Thumb.png"
 author: "chart"
 url: "/aws/aws-wordpress/2020/05/02/aws-wordpress-blog-part-1-buy-a-domain/"
 ---

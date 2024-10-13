@@ -8,7 +8,8 @@ tags:
   - "time"
   - "windows-standard-linux"
   - "wsl"
-coverImage: "tuxWithWin.jpg"
+cover:
+  Image: "/images/tuxWithWin.jpg"
 author: "chart"
 url: "/linux/2020/07/13/fix-time-in-wsl/"
 ---

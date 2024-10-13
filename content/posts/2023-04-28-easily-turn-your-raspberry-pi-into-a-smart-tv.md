@@ -3,7 +3,8 @@ title: "Easily Turn Your Raspberry Pi into a Smart TV"
 date: "2023-04-28"
 categories: 
   - "pi"
-coverImage: "kde-plasma-bigscreen.jpg"
+cover:
+  Image: "/images/kde-plasma-bigscreen.jpg"
 author: "chart"
 url: "/pi/2023/04/27/easily-turn-your-raspberry-pi-into-a-smart-tv/"
 ---

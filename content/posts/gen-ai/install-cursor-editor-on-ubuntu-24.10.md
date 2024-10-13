@@ -2,14 +2,16 @@
 title: "How to Install Cursor on Ubuntu 24.10"
 date: "2024-10-13"
 categories: 
-  - "Tech"
+  - "Gen AI"
 tags: 
   - "Cursor"
   - "Ubuntu"
   - "AppImage"
   - "Linux"
   - "Code Editor"
-coverImage: ""
+  - "ai"
+cover:
+  Image: "/images/"
 author: "chart"
 url: "how-to-install-cursor-ubuntu-24-10"
 ---

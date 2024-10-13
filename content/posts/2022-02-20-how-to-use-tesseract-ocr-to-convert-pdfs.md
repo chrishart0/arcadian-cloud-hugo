@@ -6,7 +6,8 @@ categories:
 tags: 
   - "ocr"
   - "tesseract"
-coverImage: "tesseract-ocr1-1.png"
+cover:
+  Image: "/images/tesseract-ocr1-1.png"
 author: "chart"
 url: "/linux/2022/02/20/how-to-use-tesseract-ocr-to-convert-pdfs/"
 ---

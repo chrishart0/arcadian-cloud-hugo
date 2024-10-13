@@ -11,7 +11,8 @@ tags:
   - "lambda"
   - "subnet"
   - "vpc"
-coverImage: "cdk2.png"
+cover:
+  Image: "/images/cdk2.png"
 author: "chart"
 url: "/devops/2021/01/27/aws-cdk-place-a-lambda-function-in-specific-subnets/"
 ---

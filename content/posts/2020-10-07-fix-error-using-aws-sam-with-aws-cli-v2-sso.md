@@ -8,7 +8,8 @@ tags:
   - "cli"
   - "linux"
   - "sam"
-coverImage: "AM_AWSSSOUseCases_120717a.png"
+cover:
+  Image: "/images/AM_AWSSSOUseCases_120717a.png"
 author: "chart"
 url: "/aws/2020/10/07/fix-error-using-aws-sam-with-aws-cli-v2-sso/"
 ---

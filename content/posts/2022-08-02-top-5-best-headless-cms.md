@@ -5,7 +5,8 @@ categories:
   - "cms"
 tags: 
   - "headless-cms"
-coverImage: "best-headless-cms.png"
+cover:
+  Image: "/images/best-headless-cms.png"
 author: "chart"
 url: "/cms/2022/08/02/top-5-best-headless-cms/"
 ---

@@ -9,7 +9,8 @@ tags:
   - "Gen AI"
   - "evals"
   - "Automated evaluations"
-coverImage: ""
+cover:
+  Image: "/images/"
 author: "chart"
 url: "into-to-LLM-evals"
 ---

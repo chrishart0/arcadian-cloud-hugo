@@ -8,7 +8,8 @@ tags:
   - "fall"
   - "meat"
   - "pumpkin"
-coverImage: "HereWeGo-scaled.jpg"
+cover:
+  Image: "/images/HereWeGo-scaled.jpg"
 author: "chart"
 url: "/cooking/2020/10/08/cooking-with-the-devops-engineer-pumpkin-roast/"
 ---

@@ -3,7 +3,8 @@ title: "PowerShell Find All User Roles"
 date: "2022-06-23"
 categories: 
   - "windows"
-coverImage: "PowerShellFindAUsersRole.png"
+cover:
+  Image: "/images/PowerShellFindAUsersRole.png"
 author: "chart"
 url: "/windows/2022/06/23/powershell-find-all-user-roles/"
 ---

@@ -11,7 +11,8 @@ tags:
   - "lambda"
   - "sam"
   - "thought-leadership"
-coverImage: "micro-feedback-loops-image-only.png"
+cover:
+  Image: "/images/micro-feedback-loops-image-only.png"
 author: "chart"
 url: "/devex/2022/03/25/optimizing-for-a-cloud-native-developer-experience/"
 ---

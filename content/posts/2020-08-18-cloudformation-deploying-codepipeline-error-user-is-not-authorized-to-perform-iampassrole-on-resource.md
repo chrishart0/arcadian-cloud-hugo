@@ -3,7 +3,8 @@ title: "CloudFormation deploying CodePipeline error: User:  is not authorized to
 date: "2020-08-18"
 categories: 
   - "aws"
-coverImage: "Codepipeline-Update-Failed2.png"
+cover:
+  Image: "/images/Codepipeline-Update-Failed2.png"
 author: "chart"
 url: "/aws/2020/08/18/cloudformation-deploying-codepipeline-error-user-is-not-authorized-to-perform-iampassrole-on-resource/"
 ---

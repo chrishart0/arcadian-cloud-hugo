@@ -10,7 +10,8 @@ tags:
   - "devex"
   - "lambda"
   - "sam"
-coverImage: "SAMCLIPic.png"
+cover:
+  Image: "/images/SAMCLIPic.png"
 author: "chart"
 url: "/aws/sam/2021/09/17/how-to-increase-your-python-aws-cdk-lambda-development-speed-by-testing-locally-with-aws-sam/"
 ---

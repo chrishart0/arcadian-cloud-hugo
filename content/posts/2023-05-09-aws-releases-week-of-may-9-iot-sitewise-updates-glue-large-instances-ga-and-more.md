@@ -5,7 +5,8 @@ categories:
   - "aws"
 tags: 
   - "aws"
-coverImage: "May-9-Thumbnail.webp"
+cover:
+  Image: "/images/May-9-Thumbnail.webp"
 author: "chart"
 url: "/aws/2023/05/09/aws-releases-week-of-may-9-iot-sitewise-updates-glue-large-instances-ga-and-more/"
 ---

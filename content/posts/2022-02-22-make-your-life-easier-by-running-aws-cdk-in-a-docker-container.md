@@ -7,7 +7,8 @@ tags:
   - "3-musketeers"
   - "aws"
   - "cdk"
-coverImage: "3Musketeers-and-AWS-CDK.png"
+cover:
+  Image: "/images/3Musketeers-and-AWS-CDK.png"
 author: "chart"
 url: "/aws/2022/02/22/make-your-life-easier-by-running-aws-cdk-in-a-docker-container/"
 ---

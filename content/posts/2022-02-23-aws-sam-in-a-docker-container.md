@@ -9,7 +9,8 @@ tags:
   - "cli"
   - "docker"
   - "sam"
-coverImage: "SamAndDocker.png"
+cover:
+  Image: "/images/SamAndDocker.png"
 author: "chart"
 url: "/aws/2022/02/23/aws-sam-in-a-docker-container/"
 ---

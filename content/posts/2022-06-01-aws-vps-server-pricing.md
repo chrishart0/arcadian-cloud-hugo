@@ -10,7 +10,8 @@ tags:
   - "pricing"
   - "vps"
   - "vps-pricing"
-coverImage: "aws-vpc-server-pricing.webp"
+cover:
+  Image: "/images/aws-vpc-server-pricing.webp"
 author: "chart"
 url: "/aws/2022/06/01/aws-vps-server-pricing/"
 ---

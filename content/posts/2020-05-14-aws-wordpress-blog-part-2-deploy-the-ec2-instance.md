@@ -9,7 +9,8 @@ tags:
   - "iam"
   - "linux"
   - "wordpress"
-coverImage: "EC2InstanceType.png"
+cover:
+  Image: "/images/EC2InstanceType.png"
 author: "chart"
 url: "/aws/aws-wordpress/2020/05/13/aws-wordpress-blog-part-2-deploy-the-ec2-instance/"
 ---

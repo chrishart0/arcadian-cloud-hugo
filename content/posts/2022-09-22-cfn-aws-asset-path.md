@@ -9,7 +9,8 @@ tags:
   - "devex"
   - "lambda"
   - "sam"
-coverImage: "AWSSAM-1.webp"
+cover:
+  Image: "/images/AWSSAM-1.webp"
 author: "chart"
 url: "/aws/sam/2022/09/22/cfn-aws-asset-path/"
 ---

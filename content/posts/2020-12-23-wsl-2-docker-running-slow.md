@@ -9,7 +9,8 @@ tags:
   - "wordpress"
   - "wsl"
   - "wsl2"
-coverImage: "tuxWithWin.jpg"
+cover:
+  Image: "/images/tuxWithWin.jpg"
 author: "chart"
 url: "/linux/docker-linux/2020/12/23/wsl-2-docker-running-slow/"
 ---

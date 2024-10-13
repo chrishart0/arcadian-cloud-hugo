@@ -3,7 +3,8 @@ title: "Bash: Or in an until or while loop"
 date: "2020-09-30"
 categories: 
   - "nix"
-coverImage: "tux.png"
+cover:
+  Image: "/images/tux.png"
 author: "chart"
 url: "/nix/2020/09/29/bash-or-in-an-until-or-while-loop/"
 ---

@@ -7,7 +7,8 @@ tags:
   - "amazon-chime"
   - "aws"
   - "virtual-meetings"
-coverImage: "amazonChimeArticleLogo.webp"
+cover:
+  Image: "/images/amazonChimeArticleLogo.webp"
 author: "chart"
 url: "/aws/2022/12/17/a-comprehensive-guide-to-amazon-chime-features-benefits-and-pricing/"
 ---

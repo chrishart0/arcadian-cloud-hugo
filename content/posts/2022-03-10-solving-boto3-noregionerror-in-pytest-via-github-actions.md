@@ -7,7 +7,8 @@ tags:
   - "aws"
   - "pytest"
   - "testing"
-coverImage: "botocore_exceptions.webp"
+cover:
+  Image: "/images/botocore_exceptions.webp"
 author: "chart"
 url: "/aws/2022/03/09/solving-boto3-noregionerror-in-pytest-via-github-actions/"
 ---

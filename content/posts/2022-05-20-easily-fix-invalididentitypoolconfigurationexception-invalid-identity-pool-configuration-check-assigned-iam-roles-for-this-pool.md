@@ -3,7 +3,8 @@ title: "Easily Fix: InvalidIdentityPoolConfigurationException, Invalid identity 
 date: "2022-05-20"
 categories: 
   - "aws"
-coverImage: "Cognito-fix-invalid-idnetiy-pool-config.webp"
+cover:
+  Image: "/images/Cognito-fix-invalid-idnetiy-pool-config.webp"
 author: "chart"
 url: "/aws/2022/05/20/easily-fix-invalididentitypoolconfigurationexception-invalid-identity-pool-configuration-check-assigned-iam-roles-for-this-pool/"
 ---

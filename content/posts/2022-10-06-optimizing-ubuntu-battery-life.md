@@ -7,7 +7,8 @@ tags:
   - "battery-life"
   - "linux"
   - "ubuntu"
-coverImage: "cover.webp"
+cover:
+  Image: "/images/cover.webp"
 author: "chart"
 url: "/linux/2022/10/06/optimizing-ubuntu-battery-life/"
 ---

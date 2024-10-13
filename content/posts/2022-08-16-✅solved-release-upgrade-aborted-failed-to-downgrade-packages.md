@@ -5,7 +5,8 @@ categories:
   - "linux-desktop"
 tags: 
   - "linux"
-coverImage: "image-3.png"
+cover:
+  Image: "/images/image-3.png"
 author: "chart"
 url: "/linux/linux-desktop/2022/08/16/%e2%9c%85solved-release-upgrade-aborted-failed-to-downgrade-packages/"
 ---

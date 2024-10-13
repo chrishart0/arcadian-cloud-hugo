@@ -27,22 +27,24 @@ Go to the [Cursor homepage](https://www.cursor.com) and grab the Cursor `.AppIma
 After downloading, open your terminal, navigate to the directory where the `.AppImage` is, and run:
 
 ```bash
-chmod +x Cursor-x86_64.AppImage
+chmod +x cursor-0.42.2x86_64.AppImage
 ```
 
-Replace `Cursor-x86_64.AppImage` with the actual filename if it's different.
+*Note: Replace `cursor-0.42.2x86_64.AppImage` with the actual filename, likely there will be a different version number by the time you read this.*
 
 #### Step 3: Run the AppImage
 Launch Cursor by running:
 
 ```bash
-./Cursor-x86_64.AppImage
+./cursor-0.42.2x86_64.AppImage  --no-sandbox
 ```
 
 If you run into a security warning related to AppArmor, you might need to create an AppArmor profile to get it running.
 
 #### Step 4: Optional - Desktop Integration
 If you want Cursor to be accessible from your app menu, you'll need to create a `.desktop` entry. There's a script available on the Cursor forum that can handle this for you—updating symlinks, downloading the icon, and creating the `.desktop` file. You can find the script [here](https://gist.github.com/arpagon/7cb8ff6361380725c893f5535fbbb58d).
+
+You can also try this AppImage Launcher: <https://github.com/TheAssassin/AppImageLauncher>
 
 #### What Makes Cursor Cool?
 
@@ -51,6 +53,7 @@ Cursor is built to be an AI-first code editor, similar to GitHub Copilot but ful
 #### Troubleshooting Tips
 - **AppArmor Issues**: If Cursor doesn't launch, you might need to create an AppArmor profile. Check out the detailed guides on the [Cursor Community Forum](https://forum.cursor.com).
 - **Desktop Integration**: To make Cursor easier to launch, set up a `.desktop` file so it shows up in your applications menu.
+- Another GitHub thread of Troubleshooting the install: <https://askubuntu.com/questions/1516057/secure-install-cursor-sh-in-ubuntu-24-04>
 
 #### Conclusion
 With these steps, Cursor should be good to go on Ubuntu 24.10. If you run into trouble, the [Cursor Community Forum](https://forum.cursor.com/t/cursor-install-ubuntu-24-04/4838/2) is your best bet for support and troubleshooting tips.

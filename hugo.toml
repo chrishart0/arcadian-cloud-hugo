@@ -80,24 +80,31 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
+    identifier = "GenAI"
+    name = "Gen AI"
+    url = "/tags/gen-ai/"
+    weight = 10
+    pre = "<i class='fas fa-heart'></i>"
+
+  [[menu.main]]
     identifier = "Thought Leadership"
     name = "Thought Leadership"
     url = "/tags/thought-leadership/"
-    weight = 10
+    weight = 20
     pre = "<i class='fas fa-heart'></i>"
 
   [[menu.main]]
     identifier = "categories"
     name = "Categories"
     url = "/categories/"
-    weight = 20
+    weight = 30
     pre = "<i class='fas fa-folder'></i>"
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 30
+    weight = 40
     pre = "<i class='fas fa-tags'></i>"
 
 [taxonomies]

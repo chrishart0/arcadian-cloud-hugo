@@ -7,11 +7,13 @@ tags:
   - "thought-leadership"
 author: "chart"
 url: "/agile/2023/05/09/you-are-using-story-points-wrong-how-to-make-story-points-suck-less/"
+cover:
+  Image: "/images/1_Q8HekRFvdLAfvIeY2ZcsNw.jpg"
 ---
 
 <figure>
 
-![](/images/1_K39HLairchX5nxaYMtZqag.jpg)
+![How it feels to use story points correctly](/images/1_K39HLairchX5nxaYMtZqag.jpg)
 
 <figcaption>
 
@@ -39,7 +41,7 @@ The goal of this article is not to give the reader a set of hard rules. Instead,
 
 Story points are relative to previously sized stories.
 
-![](/images/1_Q8HekRFvdLAfvIeY2ZcsNw.jpg)
+![Big brain story points](/images/1_Q8HekRFvdLAfvIeY2ZcsNw.jpg)
 
 #### Arbitrary
 
@@ -113,7 +115,7 @@ Stops the team from committing to doing too much in a period of time(iteration).
 
 Useful for using stories on a [prioritization matrix](https://www.atlassian.com/team-playbook/plays/prioritization-matrix).
 
-![](/images/1_bh8xz1EWa8JTBoyRFXtMEw.png)
+![dilbert priority](/images/1_bh8xz1EWa8JTBoyRFXtMEw.png)
 
 #### Develop Shared Understanding
 
@@ -192,7 +194,7 @@ Teams should pick their own standard, it shouldn’t be imposed by anyone else. 
 
 ### Planning for new teams
 
-![](/images/1_Hd9Hb3z1gjvLvq8tiMdafQ.jpg)
+![dilbert planning](/images/1_Hd9Hb3z1gjvLvq8tiMdafQ.jpg)
 
 When a new team comes together their estimates will be difficult to agree on and very uncertain, that’s okay, they don’t have a point of reference yet.
 
@@ -258,7 +260,7 @@ Don’t get stuck in the weeds. If there are some “3s” and a “5” then do
 
 #### Management manipulating with the team’s points
 
-![](/images/1_FWKUeksDQ7y3TMxRjJb8Kw.jpg)
+![dilbert estimation](/images/1_FWKUeksDQ7y3TMxRjJb8Kw.jpg)
 
 ### What happens when the team doesn’t agree?
 

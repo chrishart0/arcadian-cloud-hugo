@@ -9,7 +9,8 @@ tags:
   - "AppImage"
   - "Linux"
   - "Code Editor"
-  - "ai"
+  - "AI"
+  - "Gen AI"
 cover:
   Image: "/images/gen-ai/cover-images/how-to-install-cursor-ubuntu-24-10.webp"
 author: "chart"

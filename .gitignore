@@ -6,3 +6,5 @@ resources/
 *.lock
 .env
 infra/cdk.context.json
+e2e-tests/node_modules/
+e2e-tests/test-results/.last-run.json

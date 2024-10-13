@@ -44,7 +44,9 @@ If you run into a security warning related to AppArmor, you might need to create
 #### Step 4: Optional - Desktop Integration
 If you want Cursor to be accessible from your app menu, you'll need to create a `.desktop` entry. There's a script available on the Cursor forum that can handle this for you—updating symlinks, downloading the icon, and creating the `.desktop` file. You can find the script [here](https://gist.github.com/arpagon/7cb8ff6361380725c893f5535fbbb58d).
 
-You can also try this AppImage Launcher: <https://github.com/TheAssassin/AppImageLauncher>
+You can also try this AppImage Launcher: 
+* <https://github.com/TheAssassin/AppImageLauncher>
+* <https://github.com/TheAssassin/AppImageLauncher/wiki/Install-on-Ubuntu-or-Debian>
 
 #### What Makes Cursor Cool?
 

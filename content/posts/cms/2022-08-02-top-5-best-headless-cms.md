@@ -1,15 +1,18 @@
 ---
-title: "[2022] ✍️ Top 5 Best Headless CMS"
+title: "[2024] ✍️ Top 5 Best Headless CMS"
 date: "2022-08-02"
+lastmod: "2024-10-15"
 categories: 
   - "cms"
 tags: 
   - "headless-cms"
 cover:
-  Image: "/images/best-headless-cms.png"
+  Image: "/images/2022-08-02-top-5-best-headless-cms/best-headless-cms.webp"
 author: "chart"
 url: "/cms/2022/08/02/top-5-best-headless-cms/"
 ---
+
+*Updated for 2024!*
 
 I needed to select the best headless CMS for a small project I am working on and I found no other good articles on the best headless CMS. Read on for my comparison of all the top headless CMS offerings.
 
@@ -52,20 +55,21 @@ Sanity seems to have one of the best adoption rates. Their name pops up most in 
 
 See their pricing page: [https://www.sanity.io/pricing](https://www.sanity.io/pricing)
 
-##### Free tier (pretty good! [🙂](https://emojipedia.org/slightly-smiling-face/))
+##### Free tier (pretty good! 🙂)
+*Note: Sanities free tier has gotten a significant upgrade since the original 2022 post, more than double the free tier!*
 
-- You get unlimited free admin users and 3 free non-admin users
-- 100K API requests/Mo
-- 500k API CDN Requests
-- 5Gb in assets
-- 10GB Baandwidth (BOOO!)
-- This will probably be your bottle neck if you are calling the API in prod
-- Only $1 / extra 5 GB of bandwidth, a low cost if you can stay on the "free tier"
+- You get 20 users free!
+- Unlimited Viewer tier users
+- 250K API requests/Mo
+- 1m API CDN Requests
+- 100GB in assets
+- 100GB Bandwidth (BOOO!)
+- Only $.30 / extra 1 GB of bandwidth, a low cost if you can stay on the "free tier"
 - Pay as you go for for more resources
 
 <figure>
 
-![sanity.io headless CMS is free forever](/images/image.png)
+![sanity.io headless CMS is free forever](/images/2022-08-02-top-5-best-headless-cms/sanity-free-forever.webp)
 
 <figcaption>
 
@@ -77,15 +81,15 @@ Free forever, according to their site.
 
 ##### Paid tiers (Not bad in comparison ¯\\\_(ツ)\_/¯ )
 
-![](/images/image-1.png)
+![basic sanity pricing](/images/2022-08-02-top-5-best-headless-cms/sanity-pricing-tiers.webp)
+
+![full sanity pricing tiers](/images/2022-08-02-top-5-best-headless-cms/sanity-pricing-tiers-2.webp)
 
 #### My Review
 
 You start off with Sanity by installing the cli with npm. The CLI will walk you through authentication and setting up a demo project.
 
 Once that demo project is ready, you'll run Sanity locally with `npm run start`
-
-![Starting Sanity locally for testing](/images/image-2.png)
 
 When pulling up the Sanity UI at http://localhost:3333/, first I authenticate. Clicking around, it seems like a pretty neat tool. Checking inspector, I see that to retrieve and write data I am hitting sanity APIs. Sanity calls the data store their "content lake," this is how the real-time Google docs like multi-user editor works. I wonder, what is the benefit of having me run the UI from my machine instead of hosting it for me if I am just pulling all the data from Sanity?
 
@@ -116,7 +120,7 @@ https://prismic.io/pricing
 ##### Free Tier (Good for 1 person, bad for a small team)
 
 - 1 User (BOOOOO!)
-- Unlimited API Calls
+- 4 million API calls per month
 - Unlimited Documents
 - Unlimited Types
 - Unlimited Image Optimizations
@@ -124,10 +128,10 @@ https://prismic.io/pricing
 
 #### Paid Tier
 
-- $7/mo for 3 users
-- $15/mo for 7 users
-- $100/mo for 25 users
-- $500/mo for Unlimited users
+- $10/mo for 3 users
+- $25/mo for 7 users
+- $150/mo for 25 users
+- $675/mo for Unlimited users
     - 1TB CDN
     - Weekly Backups
 
@@ -147,22 +151,21 @@ I've seen Contentful's name pop up a lot in the last year, a lot of the reviews 
 
 See their pricing page: https://www.contentful.com/pricing/
 
-##### Free tier (Meh [🤷,](https://emojipedia.org/person-shrugging/) be careful of getting locked into that paid tier)
+##### Free tier (Meh 🤷, be careful of getting locked into that paid tier)
 
 > Get your API keys and start hacking. Ideal for individual developers working on personal sites, hackathons, or philanthropic projects.
 
 - 5 User free
     - Either admin or editor role, no custom roles
 - 2 Locales
-- 48 Content types
-- 25k records
+- Bandwidth: 100GB / month
+- 1M API calls/month
 - 50MB Assets 🤮
     - That's going to run out very very fast if you have a few photos per page
-- Asset bandwidth: .75TB
 
 ##### Paid pricing (🤮)
 
-- Starts at $489/mo! Hope you don't need to move past free tier for your small personal project
+- Starts at $300/mo! Hope you don't need to move past free tier for your small personal project
 
 ### [Strapi](https://strapi.io/)
 

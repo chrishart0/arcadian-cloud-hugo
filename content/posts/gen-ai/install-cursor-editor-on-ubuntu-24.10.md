@@ -26,7 +26,7 @@ Cursor is an AI-powered code editor, and getting it up and running on Ubuntu 24.
 #### Step 1: Download the AppImage
 Go to the [Cursor homepage](https://www.cursor.com) and grab the Cursor `.AppImage` file for Linux. This AppImage is a self-contained package that makes installation hassle-free.
 
-![how to install cursor on Ubuntu 24.10](/images/gen-ai/how-to-install-cursor/cursor-homepage.png)
+![how to install cursor on Ubuntu 24.10](/images/gen-ai/how-to-install-cursor/cursor-homepage.webp)
 
 #### Step 2: Make the AppImage Executable
 After downloading, open your terminal, navigate to the directory where the `.AppImage` is, and run:
@@ -46,12 +46,22 @@ Launch Cursor by running:
 
 If you run into a security warning related to AppArmor, you might need to create an AppArmor profile to get it running.
 
-#### Step 4: Optional - Desktop Integration
-If you want Cursor to be accessible from your app menu, you'll need to create a `.desktop` entry. There's a script available on the Cursor forum that can handle this for you—updating symlinks, downloading the icon, and creating the `.desktop` file. You can find the script [here](https://gist.github.com/arpagon/7cb8ff6361380725c893f5535fbbb58d).
+#### Step 4: Optional - App Picker Integration
 
-You can also try this AppImage Launcher: 
+![Cursor from Ubuntu App Launcher menu](images/gen-ai/how-to-install-cursor/cursor-in-app-launcher.webp)
+
+Right now, you'll have to launch cursor by calling the executable each time. If you make cursor available from the Ubuntu launcher as show in my screenshot, here are the steps.
+
+Install App Image Launcher: 
 * <https://github.com/TheAssassin/AppImageLauncher>
 * <https://github.com/TheAssassin/AppImageLauncher/wiki/Install-on-Ubuntu-or-Debian>
+
+*NOTE: App Image Launcher PPA is not available for Ubuntu 24.10, you will have to install the .deb*
+
+* Download the latest .deb from: <https://github.com/TheAssassin/AppImageLauncher/releases>
+* Install it with the following command, but make sure to change it to the file path you downloaded`sudo apt install  ./appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb`
+
+I put in a feature request with App Image Launcher to support Ubuntu 24.10: <https://github.com/TheAssassin/AppImageLauncher/issues/669>
 
 #### What Makes Cursor Cool?
 

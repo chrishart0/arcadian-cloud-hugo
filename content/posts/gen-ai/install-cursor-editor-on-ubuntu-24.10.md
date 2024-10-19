@@ -48,7 +48,7 @@ If you run into a security warning related to AppArmor, you might need to create
 
 #### Step 4: Optional - App Picker Integration
 
-![Cursor from Ubuntu App Launcher menu](images/gen-ai/how-to-install-cursor/cursor-in-app-launcher.webp)
+![Cursor from Ubuntu App Launcher menu](/images/gen-ai/how-to-install-cursor/cursor-in-app-launcher.webp)
 
 Right now, you'll have to launch cursor by calling the executable each time. If you make cursor available from the Ubuntu launcher as show in my screenshot, here are the steps.
 

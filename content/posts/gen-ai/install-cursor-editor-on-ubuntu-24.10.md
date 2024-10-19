@@ -17,18 +17,18 @@ author: "chart"
 url: "how-to-install-cursor-ubuntu-24-10"
 ---
 
-### How to Install Cursor on Ubuntu 24.10
+## How to Install Cursor on Ubuntu 24.10
 
 **Quick Answer**: Head to the [Cursor homepage](https://www.cursor.com), download the AppImage, make it executable, and run it. If you want it to show up in your app menu, add a `.desktop` entry.
 
 Cursor is an AI-powered code editor, and getting it up and running on Ubuntu 24.10 is pretty straightforward. Here's how to do it:
 
-#### Step 1: Download the AppImage
+### Step 1: Download the AppImage
 Go to the [Cursor homepage](https://www.cursor.com) and grab the Cursor `.AppImage` file for Linux. This AppImage is a self-contained package that makes installation hassle-free.
 
 ![how to install cursor on Ubuntu 24.10](/images/gen-ai/how-to-install-cursor/cursor-homepage.webp)
 
-#### Step 2: Make the AppImage Executable
+### Step 2: Make the AppImage Executable
 After downloading, open your terminal, navigate to the directory where the `.AppImage` is, and run:
 
 ```bash
@@ -37,7 +37,7 @@ chmod +x cursor-0.42.2x86_64.AppImage
 
 *Note: Replace `cursor-0.42.2x86_64.AppImage` with the actual filename, likely there will be a different version number by the time you read this.*
 
-#### Step 3: Run the AppImage
+### Step 3: Run the AppImage
 Launch Cursor by running:
 
 ```bash
@@ -46,7 +46,7 @@ Launch Cursor by running:
 
 If you run into a security warning related to AppArmor, you might need to create an AppArmor profile to get it running.
 
-#### Step 4: Optional - App Picker Integration
+### Step 4: Optional - App Picker Integration
 
 ![Cursor from Ubuntu App Launcher menu](/images/gen-ai/how-to-install-cursor/cursor-in-app-launcher.webp)
 
@@ -63,11 +63,11 @@ Install App Image Launcher:
 
 I put in a feature request with App Image Launcher to support Ubuntu 24.10: <https://github.com/TheAssassin/AppImageLauncher/issues/669>
 
-#### What Makes Cursor Cool?
+## What Makes Cursor Cool?
 
 Cursor is built to be an AI-first code editor, similar to GitHub Copilot but fully integrated. It helps with auto-completion, code generation, and debugging—basically, it aims to make coding faster and less of a slog. If you hit any bumps during installation, especially with AppArmor, the [Cursor Community Forum](https://forum.cursor.com) is a great place to find solutions other users have shared.
 
-#### Troubleshooting Tips
+## Troubleshooting Tips
 - **AppArmor Issues**: If Cursor doesn't launch, you might need to create an AppArmor profile. Check out the detailed guides on the [Cursor Community Forum](https://forum.cursor.com).
 - **Desktop Integration**: To make Cursor easier to launch, set up a `.desktop` file so it shows up in your applications menu.
 - Another GitHub thread of Troubleshooting the install: <https://askubuntu.com/questions/1516057/secure-install-cursor-sh-in-ubuntu-24-04>

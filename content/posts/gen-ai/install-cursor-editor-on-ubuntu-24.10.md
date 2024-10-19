@@ -19,7 +19,7 @@ url: "how-to-install-cursor-ubuntu-24-10"
 
 ## How to Install Cursor on Ubuntu 24.10
 
-**Quick Answer**: Head to the [Cursor homepage](https://www.cursor.com), download the AppImage, make it executable, and run it. If you want it to show up in your app menu, add a `.desktop` entry.
+**Quick Answer**: Head to the [Cursor homepage](https://www.cursor.com), download the AppImage, make it executable, and run it. If you want it to show up in your app menu, then use App Image Launcher.
 
 Cursor is an AI-powered code editor, and getting it up and running on Ubuntu 24.10 is pretty straightforward. Here's how to do it:
 
